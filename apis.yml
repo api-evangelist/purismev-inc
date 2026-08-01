@@ -1,7 +1,25 @@
 aid: purismev-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/purismev-inc.png
 name: PurismEV Inc.
-description: PurismEV Inc. is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: PurismEV Inc. is an AI-driven electric-vehicle energy optimization platform
+  that processes real-time vehicle data to help fleets, OEMs, leasing companies, and
+  operators reduce energy consumption, extend battery lifespan, and lower operating
+  costs. Its products include Smart Throttle Control technology (range extension),
+  Battery-Aware Smart Charging, a Smart Mobility energy management system (EMS), and
+  a Fleet Management Dashboard for real-time monitoring across cars, delivery trucks,
+  forklifts, scooters, and drones. PurismEV is backed by 500 Global. The company
+  publishes no public developer API, SDKs, or developer documentation at this time.
 url: https://raw.githubusercontent.com/api-evangelist/purismev-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Electric Vehicles
+- Energy Management
+- Fleet Management
+- Battery
+- Automotive
+- Mobility
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/purismev-inc-domain-security.yml
 - type: Website
   url: https://purism-ev.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
