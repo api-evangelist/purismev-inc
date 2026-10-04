@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/purismev-inc.png
-name: PurismEV Inc.
+name: PurismEV
 description: PurismEV Inc. is an AI-driven electric-vehicle energy optimization platform
   that processes real-time vehicle data to help fleets, OEMs, leasing companies, and
   operators reduce energy consumption, extend battery lifespan, and lower operating
@@ -66,3 +66,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: PurismEV Inc.
